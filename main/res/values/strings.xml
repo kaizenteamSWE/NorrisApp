@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NorrisApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="addresslbl">Indirizzo Norris:</string>
+    <string name="auth_lbl">Autenticazione istanza privata</string>
+    <string name="base_address">http://80.117.55.25:9000/norris</string>
+    <string name="psw_lbl">Password:</string>
+    <string name="usr_lbl">Username:</string>
+    <string name="access_btn">Accedi</string>
+    <string name="title_activity_list">ListActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="id_listitemlbl">ID chart</string>
+    <string name="type_listitemlbl">Tipo chart</string>
+    <string name="title_activity_bar_chart">BarChartActivity</string>
+    <string name="title_activity_map_chart">MapChartActivity</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="title_activity_line_chart">LineChartActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title">ciao</string>
+</resources>

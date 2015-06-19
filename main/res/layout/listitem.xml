@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/img_item_list"
+        android:layout_height="@dimen/img_item_list"
+        android:id="@+id/image_listitem"
+        android:visibility="visible"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/image_listtitle"
+            android:textSize="@dimen/listtitle"
+            android:textStyle="bold"
+            android:textColor="#ff000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="description"
+            android:id="@+id/image_listdescr"
+            android:textStyle="italic"
+            android:textColor="#ff323232"
+            android:textSize="@dimen/listdescr" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/type_listitemlbl"
+                android:id="@+id/type_listitem"
+                android:textSize="@dimen/general_sublbl_font"
+                android:textColor="#ff535353" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/id_listitemlbl"
+                android:id="@+id/id_listitem"
+                android:textSize="@dimen/general_sublbl_font"
+                android:textStyle="bold"
+                android:textColor="#ff535353"
+                android:layout_marginLeft="13dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
